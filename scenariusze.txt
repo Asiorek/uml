@@ -1,0 +1,147 @@
+SCENARIUSZE
+
+A.A) Wyp³ata pieniêdzy z bankomatu przez u¿ytkownika z poprawn¹ autoryzacj¹:
+	- U¿ytkownik posiada œrodki na koncie, chce potwierdzenie.
+1. U¿ytkownik wk³ada kartê do czytnika bankomatu.
+2. System sprawdza poprawnoœæ karty - karta poprawna.
+3. System wyœwietla proœbê o wybór jêzyka.
+4. U¿ytkownik wybiera jêzyk.
+5. System sprawdza stan licznika PINu - licznik nieprzekroczony.
+6. System wyœwietla proœbê o podanie PINu.
+7. U¿ytkownik wpisuje PIN.
+8. System sprawdza poprawnoœæ PINu - PIN poprawny.
+9. System wyœwietla dostêpne do wyboru opcje: wyp³ata pieniêdzy, sprawdzenie stanu konta, wyjœcie.
+10. U¿ytkownik wybiera wyp³acenie pieniêdzy.
+11. System wyœwietla opcje wyboru kwoty do wyp³acenia.
+12. U¿ytkownik wybiera kwotê.
+13. System prosi bank o potwierdzenie dostêpnoœci wybranej kwoty. 
+14. System otrzymuje potwiedzenie dostêpnoœci podanej kwoty.
+15. System wyœwietla proœbê o wyci¹gniêcie karty.
+16. U¿ytkownik wyci¹ga kartê.
+17. System wyœwietla zapytanie o drukowanie potwierdzenia.
+18. U¿ytkownik potwierdza drukowanie potwierdzenia.
+19. System wyp³aca pieni¹dze.
+20. System wyœwietla proœbê o zabranie pieniêdzy.
+21. U¿ytkownik zabiera pieni¹dze.
+22. System wydaje potwierdzenie.
+23. System wyœwietla proœbê o zabranie potwierdzenia.
+24. U¿ytkownik zabiera potwierdzenie.
+25. System wyœwietla po¿egnanie.
+26. Po 5 sekundach powrót do punktu 1.
+
+A.B) Wyp³ata pieniêdzy z bankomatu przez u¿ytkownika z poprawn¹ autoryzacj¹:
+	- U¿ytkownik  nie posiada wystarczaj¹cych œrodków na koncie.
+1. U¿ytkownik wk³ada kartê do czytnika bankomatu.
+2. System sprawdza poprawnoœæ karty - karta poprawna.
+3. System wyœwietla proœbê o wybór jêzyka.
+4. U¿ytkownik wybiera jêzyk.
+5. System sprawdza stan licznika PINu - licznik nieprzekroczony.
+6. System wyœwietla proœbê o podanie PINu.
+7. U¿ytkownik wpisuje PIN.
+8. System sprawdza poprawnoœæ PINu - PIN poprawny.
+9. System wyœwietla dostêpne do wyboru opcje: wyp³ata pieniêdzy, sprawdzenie stanu konta, wyjœcie.
+10. U¿ytkownik wybiera wyp³acenie pieniêdzy.
+11. System wyœwietla opcje wyboru kwoty do wyp³acenia.
+12. U¿ytkownik wybiera kwotê.
+13. System prosi bank o potwierdzenie dostêpnoœci wybranej kwoty. 
+14. System otrzymuje informacjê o braku dostêpnoœci podanej kwoty.
+15. System wyœwietla informacjê o braku œrodków.
+16. Po 3 sekundach powrót do punktu 9.
+
+
+A.C) Wyp³ata pieniêdzy z bankomatu przez u¿ytkownika z poprawn¹ autoryzacj¹:
+	- U¿ytkownik posiada œrodki na koncie, nie chce potwierdzenia.
+1. U¿ytkownik wk³ada kartê do czytnika bankomatu.
+2. System sprawdza poprawnoœæ karty - karta poprawna.
+3. System wyœwietla proœbê o wybór jêzyka.
+4. U¿ytkownik wybiera jêzyk.
+5. System sprawdza stan licznika PINu - licznik nieprzekroczony.
+6. System wyœwietla proœbê o podanie PINu.
+7. U¿ytkownik wpisuje PIN.
+8. System sprawdza poprawnoœæ PINu - PIN poprawny.
+9. System wyœwietla dostêpne do wyboru opcje: wyp³ata pieniêdzy, sprawdzenie stanu konta, wyjœcie.
+10. U¿ytkownik wybiera wyp³acenie pieniêdzy.
+11. System wyœwietla opcje wyboru kwoty do wyp³acenia.
+12. U¿ytkownik wybiera kwotê.
+13. System prosi bank o potwierdzenie dostêpnoœci wybranej kwoty. 
+14. System otrzymuje potwiedzenie dostêpnoœci podanej kwoty.
+15. System wyœwietla proœbê o wyci¹gniêcie karty.
+16. U¿ytkownik wyci¹ga kartê.
+17. System wyœwietla zapytanie o drukowanie potwierdzenia.
+18. U¿ytkownik odrzuca propozycjê drukowania potwierdzenia.
+19. System wyp³aca pieni¹dze.
+20. System wyœwietla proœbê o zabranie pieniêdzy.
+21. U¿ytkownik zabiera pieni¹dze.
+22. System wyœwietla po¿egnanie.
+23. Po 5 sekundach powrót do punktu 1.
+
+
+
+
+
+B.A) Sprawdzenie stanu konta przez u¿ytkownika z poprawn¹ autoryzacj¹:
+1. U¿ytkownik wk³ada kartê do czytnika bankomatu.
+2. System sprawdza poprawnoœæ karty - karta poprawna.
+3. System wyœwietla proœbê o wybór jêzyka.
+4. U¿ytkownik wybiera jêzyk.
+5. System sprawdza stan licznika PINu - licznik nieprzekroczony.
+6. System wyœwietla proœbê o podanie PINu.
+7. U¿ytkownik wpisuje PIN.
+8. System sprawdza poprawnoœæ PINu - PIN poprawny.
+9. System wyœwietla dostêpne do wyboru opcje: wyp³ata pieniêdzy, sprawdzenie stanu konta, wyjœcie.
+10. U¿ytkownik wybiera sprawdzenie stanu konta.
+11. System pobiera z banku stan konta u¿ytkownika.
+12. System wyœwietla stan konta u¿ytkownika z opcj¹ Powrotu.
+13. Powrót do punktu 9.
+
+
+
+C.A) Wyjœcie z poprawn¹ autoryzacj¹:
+1. U¿ytkownik wk³ada kartê do czytnika bankomatu.
+2. System sprawdza poprawnoœæ karty - karta poprawna.
+3. System wyœwietla proœbê o wybór jêzyka.
+4. U¿ytkownik wybiera jêzyk.
+5. System sprawdza stan licznika PINu - licznik nieprzekroczony.
+6. System wyœwietla proœbê o podanie PINu.
+7. U¿ytkownik wpisuje PIN.
+8. System sprawdza poprawnoœæ PINu - PIN poprawny.
+9. System wyœwietla dostêpne do wyboru opcje: wyp³ata pieniêdzy, sprawdzenie stanu konta, wyjœcie.
+10. U¿ytkownik wybiera wyjœcie.
+11. System wyœwietla proœbê o wyjêcie karty.
+12. U¿ytkownik zabiera kartê.
+13. System wyœwietla po¿egnanie.
+14. Powrót do punktu 1.
+
+D.A) Niepoprawna autoryzacja:
+	- Karta jest niepoprawna.
+1. U¿ytkownik wk³ada kartê do czytnika bankomatu.
+2. System sprawdza poprawnoœæ karty - karta niepoprawna.
+3. System wyœwietla proœbê o wyjêcie karty.
+4. U¿ytkownik zabiera kartê.
+5. System wyœwietla po¿egnanie.
+6. Powrót do punktu 1.
+
+D.B) Niepoprawna autoryzacja:
+	- PIN jest niepoprawny.
+1. U¿ytkownik wk³ada kartê do czytnika bankomatu.
+2. System sprawdza poprawnoœæ karty - karta poprawna.
+3. System wyœwietla proœbê o wybór jêzyka.
+4. U¿ytkownik wybiera jêzyk.
+5. System sprawdza stan licznika PINu - licznik nieprzekroczony.
+6. System wyœwietla proœbê o podanie PINu.
+7. U¿ytkownik wpisuje PIN.
+8. System sprawdza poprawnoœæ PINu - PIN poprawny.
+9. System zwiêksza licznik PINu karty.
+10. Powrót do punktu 5.
+
+D.C) Niepoprawna autoryzacja:
+	- licznik PIN przekroczy³ limit.
+1. U¿ytkownik wk³ada kartê do czytnika bankomatu.
+2. System sprawdza poprawnoœæ karty - karta poprawna.
+3. System wyœwietla proœbê o wybór jêzyka.
+4. U¿ytkownik wybiera jêzyk.
+5. System sprawdza stan licznika PINu - licznik przekroczony.
+7. System wyœwietla proœbê o wyjêcie karty.
+8. U¿ytkownik zabiera kartê.
+9. System wyœwietla po¿egnanie.
+10. Powrót do punktu 1.
